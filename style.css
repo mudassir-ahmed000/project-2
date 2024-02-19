@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-header {
+    background-color: #c30047;
+}
+.contact-info ul {
+    /* display: flex;
+    justify-content: start; */
+    margin-left: 0;
+    padding-left: 0;
+}
+.contact-info li {
+    display:inline-block ;
+    list-style-type: none;
+    color: white;
+    /* text-align: center; */
+    margin: 10px 20px 0 20px;
+}
+.header-icons {
+    text-align: right;
+}
+.header-icons i.fa-brands.fa-facebook, i.fa-brands.fa-twitter, i.fa-brands.fa-linkedin-in, i.fa-brands.fa-instagram {
+    color: white;
+    font-size: 20px;
+    margin: 14px 8px 0 8px;
+}
+.style-donate{
+    background-color: #C30047 !important;
+    color: white !important;
+}
+a.nav-link.text-dark {
+    font-size: 16px;
+    font-weight: 500;
+}
+li.nav-item {
+    margin: 0 16px;
+}
+.section-1 .hero-banner{
+    background-image: url("hero-bg-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero-banner h1 {
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 23px;
+    color: #fff;
+    line-height: 1.1;
+}
+ .hero-banner p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.for-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.style-cases{
+    background-color: #c30047 !important;
+    color: #fff !important;
+    padding: 23px 47px !important;
+    font-size: 18px !important;
+}
+.serving h1{
+        font-size: 46px;
+        display: block;
+        font-weight: 700;
+        line-height: 1.4;
+        margin-bottom: 22px;
+}
+.pt-120{
+    padding-top: 120px
+}
+.pb-120{
+    padding-bottom: 120px;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.card-body{
+    padding: 30px 18px 8px 30px !important;
+}
+.style-card{
+    font-size: 26px;
+    font-weight: 700;
+    color: #301A22 !important;
+    cursor: pointer;
+    margin-bottom: 17px !important;
+}
+.style-card:hover{
+    color: #ff5757 !important;
+}
+.style-card-para{
+    color: #6A6063;
+    margin-bottom: 20px;
+}
+.for-color {
+    color: #C30047;
+    font-size: 18px;
+    font-weight: 700;
+    transition: transform 1s !important;
+}
+.card:hover{
+    transform: scale(1.05) !important;
+    box-shadow: 0 0 10px 5px #e7bdbd;
+}
+.about-content h1{
+    font-size: 46px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 22px;
+}
+.section-3{
+    background-color: #fcf8f9;
+}
+.section-img-bg2{
+    background-image: url("counter-bg-img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.pt-25{
+    padding-top: 25px;
+}
+.count-down-area .count-down-wrapper .single-counter {
+    padding: 44px 7px 44px 7px;
+    margin-bottom: 30px;
+}
+.count-down-area .count-down-wrapper .single-counter .captions {
+    margin-left: 20px;
+}
+.count-down-area .count-down-wrapper .single-counter .captions .counter {
+    font-size: 46px;
+    font-family: "Lora",serif;
+    line-height: 1;
+    margin-bottom: 12px;
+    display: inline-block;
+    font-weight: 700;
+    color: #fff;
+}
+.count-down-area .count-down-wrapper .single-counter .captions span {
+    color: #fff;
+    font-size: 46px;
+    font-weight: 700;
+}
+.count-down-area .count-down-wrapper .single-counter .captions p {
+    font-size: 20px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    display: block;
+    font-family: "Lora",serif;
+    color: #fff;
+}
+i.fa-solid.fa-hand-holding-heart.text-white {
+    font-size: 55px;
+}.help{
+    background-image: url("help-bg-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-style {
+    color: #6A6063;
+    font-size: 18px;
+    font-weight: 400;
+}
+.emargency-care .single-emargency {
+    padding: 65px 50px 65px 60px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.emargency-care .single-emargency .emargency-cap h5>a {
+    font-size: 46px;
+    font-weight: 700;
+    color: #301A22;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    display: block;
+}
+.emargency-care .single-emargency .emargency-cap p {
+    margin-bottom: 20px;
+}
+.style-donate-2{
+    background-color: #C30047 !important;
+    color: white !important;
+    padding: 17px 35px !important;
+}
+.single-emargency {
+    padding: 65px 80px 65px 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+.for-again-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+footer{
+    background-color: #301a22;
+}
+.joining-detail h1 {
+    font-size: 46px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 22px;
+}
+.joining-detail p  {
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: #6A6063;
+} 
+.links li {
+    list-style-type: none;
+    margin: 28px 0;
+}
+.text-color-footer{
+    color: #E6DAD8;
+}
+footer input {
+    background-color: #301a22;
+    border: 1px solid #E6DAD8;
+    padding: 10px 20px;
+    border-radius: 30px 30px;
+    width: 100%;
+}
+input::placeholder{
+    color:#E6DAD8 ;
+}
+.links li a.text-color-footer:hover{
+    color: #E6DAD8 !important;
+    border-bottom: 1px solid #E6DAD8;
+}
+@media only screen and (max-width: 1200px){
+    header .top-header{
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+ .hero-banner h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+.hero-banner p {
+    margin-bottom: 40px;
+    font-size: 21px;
+}
+.hero-banner button.style-cases{
+    padding: 20px 55px !important;
+}
+.serving h1 {
+    font-size: 43px;
+}
+.pt-120{
+    padding-top: 80px;
+}
+.pb-120{
+    padding-bottom: 80px;
+}
+.section-3 .about .row{
+    justify-content: center !important;
+}
+.section-3 .about img{
+    margin-bottom: 20px;
+}
+.single-emargency {
+    margin-left: 20px;
+    padding: 0px 35px 20px 30px !important;
+}
+.joining-detail p{
+    margin-bottom: 40px;
+}
+.style-donate-2{
+    margin-bottom: 20px;
+}
+}
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .hero-banner h1 {
+        font-size: 35px !important;
+        line-height: 1.2;
+    }
+    .serving h1 {
+        font-size: 31px;
+    }
+    .pt-120{
+        padding-top: 80px;
+    }
+    .pb-120{
+        padding-bottom: 80px;
+    }
+    .section-3 .about .row{
+        justify-content: center !important;
+    }
+    .section-3 .about img{
+        margin-bottom: 20px;
+    }
+    .about-content h1{
+        font-size: 31px;
+    }
+    .services-cap h5 a{
+        font-size: 21px;
+    }
+    .services-cap p{
+        font-size: 16px;
+    }
+    .emergency-cap h5 a{
+        font-size: 21px !important;
+    }
+    .single-emargency {
+        margin-left: 20px;
+        padding: 22px 35px  22px 30px !important;
+    }
+    .joining-detail p{
+        margin-bottom: 30px;
+    }
+    .style-donate-2{
+        margin-bottom: 20px;
+    }
+    }
+    @media (max-width: 575px){
+        .hero-banner h1 {
+            font-size: 35px !important;
+            line-height: 1.2;
+        }  
+        .hero-banner button.style-cases{
+            padding: 20px 55px !important;
+        }
+        .pt-120{
+            padding-top: 40px;
+        }
+        .pb-120{
+            padding-bottom: 40px;
+        }
+        .serving h1 {
+            font-size: 30px;
+        }
+        .about-content h1{
+            font-size: 30px;
+        }
+        .section-3 .about img{
+            margin-bottom: 20px;
+        }
+        .section-3 .about p{
+            font-size: 16px !important;
+        }
+         button.style-cases{
+            padding: 20px 40px !important;
+        }
+        .count-down-area .count-down-wrapper .single-counter {
+            padding: 15px 7px 15px 7px;
+        }
+        .serving h1 {
+            font-size: 25px;
+        }
+        .single-emargency {
+            margin-left: 10px;
+            padding: 20px 24px !important;
+        }
+        .joining-detail h1{
+            font-size: 24pxs;
+        }
+    }
